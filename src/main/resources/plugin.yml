@@ -1,0 +1,5 @@
+name: CloudSigns
+author: konrad2002
+version: 0.1
+main: net.grexcraft.cloud.signs.CloudSignsPlugin
+load: STARTUP
