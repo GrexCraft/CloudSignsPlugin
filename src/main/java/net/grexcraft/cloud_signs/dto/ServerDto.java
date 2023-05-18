@@ -1,9 +1,9 @@
-package net.grexcraft.cloud.signs.dto;
+package net.grexcraft.cloud_signs.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import net.grexcraft.cloud.signs.enums.ServerState;
+import net.grexcraft.cloud_signs.enums.ServerState;
 
 @Data
 @AllArgsConstructor

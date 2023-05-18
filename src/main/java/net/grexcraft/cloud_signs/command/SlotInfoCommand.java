@@ -1,7 +1,7 @@
-package net.grexcraft.cloud.signs.command;
+package net.grexcraft.cloud_signs.command;
 
-import net.grexcraft.cloud.signs.client.CloudWebClient;
-import net.grexcraft.cloud.signs.dto.PoolSlotDto;
+import net.grexcraft.cloud_signs.client.CloudWebClient;
+import net.grexcraft.cloud_signs.dto.PoolSlotDto;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.chat.ComponentBuilder;
 import org.bukkit.command.Command;

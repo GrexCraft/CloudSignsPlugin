@@ -1,11 +1,11 @@
-package net.grexcraft.cloud.signs.listener;
+package net.grexcraft.cloud_signs.listener;
 
-import net.grexcraft.cloud.signs.CloudSignsPlugin;
-import net.grexcraft.cloud.signs.client.CloudWebClient;
-import net.grexcraft.cloud.signs.dto.ImageDto;
-import net.grexcraft.cloud.signs.dto.PoolSlotDto;
-import net.grexcraft.cloud.signs.enums.ServerState;
-import net.grexcraft.cloud.signs.model.SignData;
+import net.grexcraft.cloud_signs.CloudSignsPlugin;
+import net.grexcraft.cloud_signs.client.CloudWebClient;
+import net.grexcraft.cloud_signs.dto.ImageDto;
+import net.grexcraft.cloud_signs.dto.PoolSlotDto;
+import net.grexcraft.cloud_signs.enums.ServerState;
+import net.grexcraft.cloud_signs.model.SignData;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.chat.ComponentBuilder;
 import org.bukkit.Bukkit;

@@ -1,6 +1,6 @@
-package net.grexcraft.cloud.signs.command;
+package net.grexcraft.cloud_signs.command;
 
-import net.grexcraft.cloud.signs.worker.GeneralWorker;
+import net.grexcraft.cloud_signs.worker.GeneralWorker;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

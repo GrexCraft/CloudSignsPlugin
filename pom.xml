@@ -4,8 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub GrexCraft Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/GrexCraft/CloudSignsPlugin</url>
+        </repository>
+    </distributionManagement>
+
     <groupId>net.grexcraft.cloud</groupId>
-    <artifactId>cloud-signs</artifactId>
+    <artifactId>cloud_signs</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 

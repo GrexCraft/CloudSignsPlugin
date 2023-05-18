@@ -1,10 +1,10 @@
-package net.grexcraft.cloud.signs.worker;
+package net.grexcraft.cloud_signs.worker;
 
 import com.google.common.collect.Iterables;
-import net.grexcraft.cloud.signs.client.CloudWebClient;
-import net.grexcraft.cloud.signs.dto.PoolSlotDto;
-import net.grexcraft.cloud.signs.enums.ServerState;
-import net.grexcraft.cloud.signs.model.SignData;
+import net.grexcraft.cloud_signs.client.CloudWebClient;
+import net.grexcraft.cloud_signs.dto.PoolSlotDto;
+import net.grexcraft.cloud_signs.enums.ServerState;
+import net.grexcraft.cloud_signs.model.SignData;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.block.Block;

@@ -1,13 +1,13 @@
-package net.grexcraft.cloud.signs;
+package net.grexcraft.cloud_signs;
 
 import com.google.common.io.ByteArrayDataInput;
 import com.google.common.io.ByteStreams;
-import net.grexcraft.cloud.signs.command.CreateSignCommand;
-import net.grexcraft.cloud.signs.command.SlotInfoCommand;
-import net.grexcraft.cloud.signs.command.UpdateSignsCommand;
-import net.grexcraft.cloud.signs.listener.ClickSignListener;
-import net.grexcraft.cloud.signs.model.SignData;
-import net.grexcraft.cloud.signs.worker.GeneralWorker;
+import net.grexcraft.cloud_signs.command.CreateSignCommand;
+import net.grexcraft.cloud_signs.command.SlotInfoCommand;
+import net.grexcraft.cloud_signs.command.UpdateSignsCommand;
+import net.grexcraft.cloud_signs.listener.ClickSignListener;
+import net.grexcraft.cloud_signs.model.SignData;
+import net.grexcraft.cloud_signs.worker.GeneralWorker;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.serialization.ConfigurationSerialization;
 import org.bukkit.entity.Player;

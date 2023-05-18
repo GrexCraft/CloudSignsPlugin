@@ -1,4 +1,4 @@
-package net.grexcraft.cloud.signs.model;
+package net.grexcraft.cloud_signs.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

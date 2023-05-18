@@ -1,9 +1,9 @@
-package net.grexcraft.cloud.signs.client;
+package net.grexcraft.cloud_signs.client;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import net.grexcraft.cloud.signs.dto.ImageDto;
-import net.grexcraft.cloud.signs.dto.PoolSlotDto;
+import net.grexcraft.cloud_signs.dto.ImageDto;
+import net.grexcraft.cloud_signs.dto.PoolSlotDto;
 import org.bukkit.Bukkit;
 
 import java.io.IOException;
