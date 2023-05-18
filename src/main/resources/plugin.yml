@@ -2,4 +2,17 @@ name: CloudSigns
 author: konrad2002
 version: 0.1
 main: net.grexcraft.cloud.signs.CloudSignsPlugin
-load: STARTUP
+load: POSTWORLD
+commands:
+  slotinfo:
+    description: Get info about pool slot
+    usage: /slotinfo <name>
+    permission: grexcraft.cloud.slotinfo
+  createcloudsign:
+    description: Look at a sign and add it as cloud sign
+    usage: /createcloudsign <title> <slot>
+    permission: grexcraft.cloud.createcloudsign
+  updatesigns:
+    description: update sign texts
+    usage: /updatesigns
+    permission: grexcraft.cloud.updatesigns
