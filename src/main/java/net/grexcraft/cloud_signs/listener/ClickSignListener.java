@@ -45,6 +45,9 @@ public class ClickSignListener implements Listener {
                 if (sign.getLocation().equals(event.getClickedBlock().getLocation())) {
                     wasClicked = sign.isClicked();
                     sign.setClicked(true);
+                    if (wasClicked)
+                        // block clicking for 4 seconds
+                        Bukkit.getScheduler().scheduleAsyncDelayedTask(plugin, () -> sign.setClicked(false), 4*20L);
                     slot = CloudWebClient.getPoolSlotByName(sign.getSlot());
                     signData = sign;
                     break;
@@ -61,9 +64,6 @@ public class ClickSignListener implements Listener {
                     );
                     return;
                 }
-                // block clicking for 4 seconds
-                SignData finalSignData = signData;
-                Bukkit.getScheduler().scheduleAsyncDelayedTask(plugin, () -> finalSignData.setClicked(false), 4*20L);
 
                 event.getPlayer().spigot().sendMessage(
                         new ComponentBuilder("No server available, a server will be started\nThis may take a few moments.").color(ChatColor.GRAY).create()
@@ -78,6 +78,7 @@ public class ClickSignListener implements Listener {
                 CloudWebClient.createServerRequest(image);
 
             } else {
+                signData.setClicked(false);
                 if (slot.getServer().getState().equals(ServerState.RUNNING))
                     sendPlayer(event.getPlayer(), slot.getServer().getName());
             }

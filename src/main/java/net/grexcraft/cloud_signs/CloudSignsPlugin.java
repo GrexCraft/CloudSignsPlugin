@@ -3,6 +3,7 @@ package net.grexcraft.cloud_signs;
 import com.google.common.io.ByteArrayDataInput;
 import com.google.common.io.ByteStreams;
 import net.grexcraft.cloud_signs.command.CreateSignCommand;
+import net.grexcraft.cloud_signs.command.FixSignsCommand;
 import net.grexcraft.cloud_signs.command.SlotInfoCommand;
 import net.grexcraft.cloud_signs.command.UpdateSignsCommand;
 import net.grexcraft.cloud_signs.listener.ClickSignListener;
@@ -55,6 +56,7 @@ public final class CloudSignsPlugin extends JavaPlugin implements PluginMessageL
     private void initCommands() {
         getCommand("slotinfo").setExecutor(new SlotInfoCommand());
         getCommand("createcloudsign").setExecutor(new CreateSignCommand(this));
+        getCommand("fixsigns").setExecutor(new FixSignsCommand(this));
         getCommand("updatesigns").setExecutor(new UpdateSignsCommand(worker));
     }
 
